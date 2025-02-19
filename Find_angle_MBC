@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from math import degrees,atan2
+height=float(input())
+base=float(input())
+MBC=round(degrees(atan2(height,base)))
+print((str(MBC)),chr(176),sep='')
